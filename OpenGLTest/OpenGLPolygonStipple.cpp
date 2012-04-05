@@ -250,7 +250,7 @@ namespace OGLKit
 
 	bool RenderFillPtn()
 	{
-
+		return true;
 	}
 
 	//virtual  
