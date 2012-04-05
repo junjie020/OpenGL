@@ -1,0 +1,10 @@
+*.lib
+*.obj
+*.exe
+*.dll
+*.sdf
+*.suo
+Debug/
+Release/
+x64/
+*.log
