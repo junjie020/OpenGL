@@ -73,7 +73,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>Use</PrecompiledHeader>
-      <AdditionalIncludeDirectories>$(FREETYPE)\freetype248\include;$(SolutionDir)FTGL\src;$(solutiondir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(FREETYPE)\include;$(SolutionDir)FTGL\src;$(solutiondir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <AdditionalOptions>/D "FTGL_LIBRARY_STATIC" %(AdditionalOptions)</AdditionalOptions>
       <TreatWarningAsError>true</TreatWarningAsError>
@@ -81,7 +81,7 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>opengl32.lib;glu32.lib;glew32s.lib;..\FTGL\Lib\ftgl_static_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(solutiondir)oglext\lib;$(FREETYPE)\freetype248\objs\win32\vc2010;D:\programmetest\VC\OpenGLTest\FTGL\ftgl_213_rc5\msvc\build;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(solutiondir)oglext\lib;$(FREETYPE)\objs\win32\vc2010;D:\programmetest\VC\OpenGLTest\FTGL\ftgl_213_rc5\msvc\build;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <SubSystem>Console</SubSystem>
       <IgnoreSpecificDefaultLibraries>LIBCMT</IgnoreSpecificDefaultLibraries>
     </Link>
@@ -148,6 +148,7 @@
     <ClCompile Include="OpenGLRenderWin.cpp" />
     <ClCompile Include="OpenGLRoot.cpp" />
     <ClCompile Include="OpenGLSceneMgr.cpp" />
+    <ClCompile Include="OpenGLShadowMap.cpp" />
     <ClCompile Include="OpenGLTextureDrawing.cpp" />
     <ClCompile Include="OpenGL_Main.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -178,6 +179,7 @@
     <ClInclude Include="OpenGLRenderWin.h" />
     <ClInclude Include="OpenGLRoot.h" />
     <ClInclude Include="OpenGLSceneMgr.h" />
+    <ClInclude Include="OpenGLShadowMap.h" />
     <ClInclude Include="OpenGLTextureDrawing.h" />
     <ClInclude Include="stdafx.h" />
   </ItemGroup>

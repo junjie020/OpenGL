@@ -1,7 +1,4 @@
-*.lib
 *.obj
-*.exe
-*.dll
 *.sdf
 *.suo
 Debug/

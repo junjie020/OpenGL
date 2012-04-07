@@ -22,7 +22,7 @@ namespace OGLKit
 		typedef std::string		stringA;
 		typedef std::wstring	stringW;
 
-	#define PI 3.1415926
+	#define PI						3.14159265359
 	#define DEGREE_TO_RADIAN(_de)	(((PI)/180.0) * (_de))
 	#define	RADIAN_TO_DEGREE(_ra)	((180.0/(PI)) * (_ra))
 }
